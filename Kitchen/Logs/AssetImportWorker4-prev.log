@@ -1,0 +1,562 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/GitHub/Kitchen
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60897
+Successfully changed project path to: D:/GitHub/Kitchen
+D:/GitHub/Kitchen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3492] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2908874937 [EditorId] 2908874937 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NOO9PI2D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3492] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2908874937 [EditorId] 2908874937 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NOO9PI2D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 19.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Kitchen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006109 seconds.
+- Loaded All Assemblies, in  0.501 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 382 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1291ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (522ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.011 seconds
+Refreshing native plugins compatible for Editor in 7.43 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.139 seconds
+Domain Reload Profiling: 2149ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2647 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (69.2 KB). Loaded Objects now: 3092.
+Memory consumption went from 120.1 MB to 120.1 MB.
+Total: 11.137400 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.227400 ms MarkObjects: 10.439400 ms  DeleteObjects: 0.194900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1033256.211226 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj
+  artifactKey: Guid(88be3b851d3b14d4ea260abca5741142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj using Guid(88be3b851d3b14d4ea260abca5741142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2eb6ae3a10e6bff9008ee671f77177') in 0.374139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B.obj
+  artifactKey: Guid(7bbe33ac78a6be34fbbfce8c7545723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B.obj using Guid(7bbe33ac78a6be34fbbfce8c7545723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dd371eac8e8ad3f09f07dad843515f') in 0.085682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel.obj
+  artifactKey: Guid(531418573209d83489e19adb29d02906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel.obj using Guid(531418573209d83489e19adb29d02906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8770e4f2a61af6cf9754cd12de1add5') in 0.085274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stove_multi_decorated.obj
+  artifactKey: Guid(00c0f572c163e3a4899ee179089ac262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stove_multi_decorated.obj using Guid(00c0f572c163e3a4899ee179089ac262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d26db82dc143738ef861961a1fbac0') in 0.083820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B_stew.obj
+  artifactKey: Guid(b0a6e9a95f3286a47ab960032c404253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B_stew.obj using Guid(b0a6e9a95f3286a47ab960032c404253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478edddd00341c24956ab6f05cbdbd36') in 0.072468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_B.obj
+  artifactKey: Guid(7dc0d4580e895554bab2860a9eb3e141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_B.obj using Guid(7dc0d4580e895554bab2860a9eb3e141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812e8407ff524545cd3465cf3ff2977') in 0.069094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 140.797976 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/towelrail.obj
+  artifactKey: Guid(c4e917af2e6ac524f8d7fd4277cddd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/towelrail.obj using Guid(c4e917af2e6ac524f8d7fd4277cddd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a556b9cdc4d8e3c055e811cf9a52d1') in 0.117291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_half.obj
+  artifactKey: Guid(cb1a6ef7c4c66c8469a3b1810d8c1790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_half.obj using Guid(cb1a6ef7c4c66c8469a3b1810d8c1790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1182e2d468034ad6f506cb258579d5') in 0.087844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_doorway.obj
+  artifactKey: Guid(71b149ae979e9d641a679020fe5a834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_doorway.obj using Guid(71b149ae979e9d641a679020fe5a834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956b4f2ab85f879124b1261493be4bae') in 0.074994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_decorated.obj
+  artifactKey: Guid(db9b41fbff0c75a4790b713075f433a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_decorated.obj using Guid(db9b41fbff0c75a4790b713075f433a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7899071c521a9f994773a9f8ddb25c7') in 0.055896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.440868 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_window_open.obj
+  artifactKey: Guid(057a957fe598f7f46869c5d5b86fe0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_window_open.obj using Guid(057a957fe598f7f46869c5d5b86fe0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfdc14e4c7d4cc98bb20a025f85ba1e') in 0.055244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 21.275335 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel.mtl
+  artifactKey: Guid(ad4e58a6b8d90a24d85397cdeebc9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel.mtl using Guid(ad4e58a6b8d90a24d85397cdeebc9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b28caa1200cd2285851d3e5de092da') in 0.002809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.246027 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/oven.obj
+  artifactKey: Guid(55008df4b722b8c459b48650d851f6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/oven.obj using Guid(55008df4b722b8c459b48650d851f6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc1eceb311511680ede34e643a34e6e') in 0.090863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/papertowel.obj
+  artifactKey: Guid(7864067e0025e7c49a466e068856ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/papertowel.obj using Guid(7864067e0025e7c49a466e068856ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80dc87cac110824869ff03f5206d4b0') in 0.097693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_A.obj
+  artifactKey: Guid(9e6e9c31f8931c84a946014b9a22c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_A.obj using Guid(9e6e9c31f8931c84a946014b9a22c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadc2fbfdba894d502278df5a5a188ec') in 0.067349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.325962 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large_decorated.obj
+  artifactKey: Guid(230815e191d3f7b4fa1c84b8cad24271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large_decorated.obj using Guid(230815e191d3f7b4fa1c84b8cad24271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea5468bc5e0efad634276014e3da356') in 0.115088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/mustard.obj
+  artifactKey: Guid(8481f2e1e3a934b4d81393958a492e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/mustard.obj using Guid(8481f2e1e3a934b4d81393958a492e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da3e79bca5ac6037fe8190af5ba342e') in 0.070972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.595433 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_decorated.obj
+  artifactKey: Guid(008a9fb5c2d091740be4425cb1dceb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_decorated.obj using Guid(008a9fb5c2d091740be4425cb1dceb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efeb5ab3dc3f3b8b11bbf6bed6786d0') in 0.074304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large.obj
+  artifactKey: Guid(955a997d4682da348afa342cabb97474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large.obj using Guid(955a997d4682da348afa342cabb97474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91826bc083a8f737476630bca9fb5b0') in 0.116117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.439806 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_A.mtl
+  artifactKey: Guid(9f612796b0f30014d9ee3e8f3b092c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_A.mtl using Guid(9f612796b0f30014d9ee3e8f3b092c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1e655e50b33703ff317309c661ac90') in 0.000979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.900477 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_sink.obj
+  artifactKey: Guid(d8c8fc8db3c106c47b992da2628a2e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_sink.obj using Guid(d8c8fc8db3c106c47b992da2628a2e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9766c2940fbade9e1c398c402169833c') in 0.083551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A_backsplash.obj
+  artifactKey: Guid(f2b57c79745782041bac41a54294a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A_backsplash.obj using Guid(f2b57c79745782041bac41a54294a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c66ae9779f352e9126cf39abc66baff') in 0.117906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_B.obj
+  artifactKey: Guid(6b417d327a453234f84a56cc53a58fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_B.obj using Guid(6b417d327a453234f84a56cc53a58fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504cbb5eca1a938ebdb988ad7f64f4ca') in 0.066332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.753159 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencabinet.obj
+  artifactKey: Guid(d815ae80c12d6ff42b1457f276b95633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencabinet.obj using Guid(d815ae80c12d6ff42b1457f276b95633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45157e947414bf7a1c84ac18d4b213ad') in 0.079086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_outercorner_backsplash.obj
+  artifactKey: Guid(a2960d497d505b44a94bb8e49e562ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_outercorner_backsplash.obj using Guid(a2960d497d505b44a94bb8e49e562ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f770df44459df0ef6938402e5c7b7e') in 0.081345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.201374 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_B_small.obj
+  artifactKey: Guid(b06ff099068789a47ba603dc8c06bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_B_small.obj using Guid(b06ff099068789a47ba603dc8c06bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9b6d4fc59cd79a7bbd2e3f63c0089d') in 0.137137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_D_large.obj
+  artifactKey: Guid(e3f42afa80194554c8dec4f1e96b3957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_D_large.obj using Guid(e3f42afa80194554c8dec4f1e96b3957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e019f08fe25e08f0eea1a375c67450') in 0.097442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.937064 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_B.obj
+  artifactKey: Guid(b0b642ad6a7a36d4a8c95a13fb896f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_B.obj using Guid(b0b642ad6a7a36d4a8c95a13fb896f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222476c13ce3c865c616c2fcf8592063') in 0.188658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_A_medium.obj
+  artifactKey: Guid(ca94c5f0d4a27794eb41dc39b02251e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_A_medium.obj using Guid(ca94c5f0d4a27794eb41dc39b02251e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf945afff823977556bce70ce81bfc0') in 0.099614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.359994 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A.obj
+  artifactKey: Guid(977bc4f6444c3ee43bd7139ee2b076aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A.obj using Guid(977bc4f6444c3ee43bd7139ee2b076aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1e2e1a166e599f41ecc5afeebe1011') in 0.137416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_top.obj
+  artifactKey: Guid(f004f70f9b66d92438d8c5740a2368fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_top.obj using Guid(f004f70f9b66d92438d8c5740a2368fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0148e66d6848d122ec548519d35986') in 0.120542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.386627 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak_pieces.obj
+  artifactKey: Guid(7202b75d0a73f5d459e0edb6ee7fd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak_pieces.obj using Guid(7202b75d0a73f5d459e0edb6ee7fd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6191b637b56d619a946e1899e83a47ad') in 0.091694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_tomato_slices.obj
+  artifactKey: Guid(a59da05b632c5ea4bad155de67e76345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_tomato_slices.obj using Guid(a59da05b632c5ea4bad155de67e76345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7dc58a03d0cc51dda4cdad441458e8') in 0.091370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_stew.obj
+  artifactKey: Guid(a87ad3c7084b2924e9f8aac34f9e403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_stew.obj using Guid(a87ad3c7084b2924e9f8aac34f9e403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c433d01e8252606cf8ce18f66715909f') in 0.081733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 5.867814 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion.obj
+  artifactKey: Guid(ccec493054760e344b2d2f298dfc92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion.obj using Guid(ccec493054760e344b2d2f298dfc92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5d5e6eb072dd8328c6033a78cb1876') in 0.083955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak.obj
+  artifactKey: Guid(3dd3f2078b1e73e44bd17a81b057e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak.obj using Guid(3dd3f2078b1e73e44bd17a81b057e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c60db3a0e1d85c9dc546c6aaa87100') in 0.079697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.932472 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_slice.obj
+  artifactKey: Guid(432f94d67be82da46ac883f7eda8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_slice.obj using Guid(432f94d67be82da46ac883f7eda8c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463e11f6a233051df994e779cd43530b') in 0.172069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce.obj
+  artifactKey: Guid(287469d0afee9794fbb977c048695d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce.obj using Guid(287469d0afee9794fbb977c048695d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da2e60dbc210f23fa85693f9d167b27') in 0.241091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.148992 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_burger_cooked.obj
+  artifactKey: Guid(2c2e475c06ced7640991bb31045db530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_burger_cooked.obj using Guid(2c2e475c06ced7640991bb31045db530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5066c546af83bdb19b32cd865c0e272b') in 0.101678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_chopped.obj
+  artifactKey: Guid(d73cac4f70ba4ce4eba67f4bfecfd73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_chopped.obj using Guid(d73cac4f70ba4ce4eba67f4bfecfd73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6211c7fff6dcd8c1f7b160796a8579b9') in 0.091409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_carrot_chopped.obj
+  artifactKey: Guid(ca7220868ae6d0743ae10f9e353fcc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_carrot_chopped.obj using Guid(ca7220868ae6d0743ae10f9e353fcc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb424495fe614728b9b865843fcc3cfd') in 0.063693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.615497 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/extractorhood.obj
+  artifactKey: Guid(0b20ce9b5ca7f0d4288127f90e4a0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/extractorhood.obj using Guid(0b20ce9b5ca7f0d4288127f90e4a0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d7927c73b433390db46f9858be2de9') in 0.088643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_bun_bottom.obj
+  artifactKey: Guid(b57c40de7a0a56e418e70a7f33e2a037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_bun_bottom.obj using Guid(b57c40de7a0a56e418e70a7f33e2a037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28723f1eef21f01a08e4423c085a883b') in 0.091435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_burger.obj
+  artifactKey: Guid(62df4285a62f44c42ae09028f6cb9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_burger.obj using Guid(62df4285a62f44c42ae09028f6cb9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84bd301521a9797c76475aaa2daed45') in 0.083544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.902022 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_steak.obj
+  artifactKey: Guid(ddc5f82d69235b5429bdd0c225fcf155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_steak.obj using Guid(ddc5f82d69235b5429bdd0c225fcf155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a84e96ef2d102ac697dfc7db53353a2') in 0.090349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.007791 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj
+  artifactKey: Guid(02e86619a70ecb74191ec8484fe78d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj using Guid(02e86619a70ecb74191ec8484fe78d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bad829847787c7a8a0791cac00ac35') in 0.085304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.900176 seconds.
+  path: Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_lid.obj
+  artifactKey: Guid(ca127c8bf462c194c97520e66728b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_lid.obj using Guid(ca127c8bf462c194c97520e66728b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4510f7569f8060eb58712e4f246b593') in 0.129798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
