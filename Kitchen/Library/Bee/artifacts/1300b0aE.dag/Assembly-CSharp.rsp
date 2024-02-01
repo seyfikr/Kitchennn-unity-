@@ -406,6 +406,7 @@
 "Assets/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/Script/ActionsController.cs"
+"Assets/Script/Interface/CutBoard.cs"
 "Assets/Script/Interface/IPutItemButched.cs"
 "Assets/Script/Interface/IPutItemFull.cs"
 "Assets/Script/Interface/ITakeItem.cs"

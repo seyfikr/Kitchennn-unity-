@@ -1,6 +1,6 @@
 
 public interface IPutItemFull
 {
-    public void PutItem(ItemType item);
+    public bool  PutItem(ItemType item);
 
 }

@@ -340,6 +340,16 @@
 "Assets/Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
+"Assets/Script/ActionsController.cs"
+"Assets/Script/Interface/CutBoard.cs"
+"Assets/Script/Interface/IPutItemButched.cs"
+"Assets/Script/Interface/IPutItemFull.cs"
+"Assets/Script/Interface/ITakeItem.cs"
+"Assets/Script/Interface/Item.cs"
+"Assets/Script/Interface/objects/ButchedItem.cs"
+"Assets/Script/Interface/objects/Inverntory.cs"
+"Assets/Script/Interface/objects/ItemBox.cs"
+"Assets/Script/Interface/TrashBin.cs"
 -langversion:9.0
 
 /deterministic

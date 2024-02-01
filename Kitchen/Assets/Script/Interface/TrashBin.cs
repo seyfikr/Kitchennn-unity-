@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TrashBin : MonoBehaviour, IPutItemFull
 {
-    public void PutItem(ItemType item)
+    public bool PutItem(ItemType item)
     {
-        
+        return true;
     }
 }

@@ -7,6 +7,7 @@ public class ActionsController : MonoBehaviour
     private Animator anim;
     private Inverntory inventory;
     private ThirdPersonController ThirdPersonCH;
+    private ItemType currentItem;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -21,20 +22,39 @@ public class ActionsController : MonoBehaviour
         {
             if(hit.collider.TryGetComponent<ItemBox>(out ItemBox itemBox))
             {
-               
+                currentItem = itemBox.GetItem();
                 inventory.TakeItem(itemBox.GetItem());
                 anim.SetBool("Take",true);
                 ThirdPersonCH.MoveSpeed = 3.5f;
             }
             else if (hit.collider.TryGetComponent<IPutItemFull>(out IPutItemFull itemPutBox))
             {
-                itemPutBox.PutItem(inventory.GetItem());
-                inventory.PutItem();
-                anim.SetBool("Take", false);
-                ThirdPersonCH.MoveSpeed = 5f;
+                
+                    bool status = itemPutBox.PutItem(inventory.GetItem());
+                    if (status == true)
+                    {
+
+                        inventory.PutItem();
+                        Debug.Log("aa");
+                        inventory.ClearHand();
+                
+                    }
+                    else
+                    {
+                 
+                    
+
+                    //return;
+
+                }
+                
+                    anim.SetBool("Take", false);
+                    ThirdPersonCH.MoveSpeed = 5f;             
             }
+          
         }
-            
+      
+
     }
     //private void OnDrawGizmos()
     //{
