@@ -43,8 +43,8 @@ public class Inverntory : MonoBehaviour
     public ItemType PutItem()
     {
         if (currentType == ItemType.NONE) return ItemType.NONE;
-        
-        itemToHold.ForEach(obj => obj.item.SetActive(false));
+        currentType=ItemType.NONE;
+        itemToHold.ForEach(obj => obj.item.SetActive(false));    
         return currentType;
     }
     public void ClearHand()

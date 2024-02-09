@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ActionsController
+    - Bakery
+    - BakeryBox
     - BasicRigidBodyPush
     - CutBoard
     - Inverntory
@@ -11,6 +13,7 @@ ScriptsOnlyBuild:
     - StarterAssets.ThirdPersonController
     - StarterAssets.UICanvasControllerInput
     - TrashBin
+    - UITimer
     - UIVirtualButton
     - UIVirtualJoystick
     Cinemachine.dll:
@@ -112,6 +115,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -174,7 +178,13 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: ActionsController
-    methodName: TakeItems
+    methodName: OneTouch
+  - assembly: Assembly-CSharp
+    fullTypeName: ActionsController
+    methodName: PointerDown
+  - assembly: Assembly-CSharp
+    fullTypeName: ActionsController
+    methodName: PointerUp
   - assembly: Assembly-CSharp
     fullTypeName: StarterAssets.UICanvasControllerInput
     methodName: VirtualSprintInput
@@ -307,111 +317,117 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18494}
     - Class: 114
-      Script: {instanceID: 18602}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 18660}
+      Script: {instanceID: 18662}
     - Class: 114
-      Script: {instanceID: 18784}
+      Script: {instanceID: 18786}
     - Class: 114
-      Script: {instanceID: 19352}
+      Script: {instanceID: 19358}
     - Class: 114
-      Script: {instanceID: 19462}
+      Script: {instanceID: 19468}
     - Class: 114
-      Script: {instanceID: 19464}
+      Script: {instanceID: 19470}
     - Class: 114
-      Script: {instanceID: 19488}
+      Script: {instanceID: 19494}
     - Class: 114
-      Script: {instanceID: 19502}
+      Script: {instanceID: 19508}
     - Class: 114
-      Script: {instanceID: 19600}
+      Script: {instanceID: 19606}
     - Class: 114
-      Script: {instanceID: 19786}
+      Script: {instanceID: 19792}
     - Class: 114
-      Script: {instanceID: 19848}
+      Script: {instanceID: 19854}
     - Class: 114
-      Script: {instanceID: 19934}
+      Script: {instanceID: 19940}
     - Class: 114
-      Script: {instanceID: 20050}
+      Script: {instanceID: 20056}
     - Class: 114
-      Script: {instanceID: 20104}
+      Script: {instanceID: 20110}
     - Class: 114
-      Script: {instanceID: 20356}
+      Script: {instanceID: 20176}
     - Class: 114
-      Script: {instanceID: 20540}
+      Script: {instanceID: 20364}
     - Class: 114
-      Script: {instanceID: 21012}
+      Script: {instanceID: 20548}
     - Class: 114
-      Script: {instanceID: 21708}
+      Script: {instanceID: 21022}
     - Class: 114
-      Script: {instanceID: 22034}
+      Script: {instanceID: 21718}
     - Class: 114
-      Script: {instanceID: 22124}
+      Script: {instanceID: 22046}
     - Class: 114
-      Script: {instanceID: 22238}
+      Script: {instanceID: 22136}
     - Class: 114
-      Script: {instanceID: 22260}
+      Script: {instanceID: 22250}
     - Class: 114
-      Script: {instanceID: 22352}
+      Script: {instanceID: 22272}
     - Class: 114
-      Script: {instanceID: 22446}
+      Script: {instanceID: 22364}
     - Class: 114
-      Script: {instanceID: 22678}
+      Script: {instanceID: 22458}
     - Class: 114
-      Script: {instanceID: 22682}
+      Script: {instanceID: 22690}
     - Class: 114
-      Script: {instanceID: 22772}
+      Script: {instanceID: 22694}
     - Class: 114
-      Script: {instanceID: 23124}
+      Script: {instanceID: 22784}
     - Class: 114
-      Script: {instanceID: 23236}
+      Script: {instanceID: 23136}
     - Class: 114
-      Script: {instanceID: 23472}
+      Script: {instanceID: 23248}
     - Class: 114
-      Script: {instanceID: 23526}
+      Script: {instanceID: 23484}
     - Class: 114
-      Script: {instanceID: 23672}
+      Script: {instanceID: 23538}
     - Class: 114
-      Script: {instanceID: 23682}
+      Script: {instanceID: 23684}
     - Class: 114
-      Script: {instanceID: 23866}
+      Script: {instanceID: 23694}
     - Class: 114
-      Script: {instanceID: 23912}
+      Script: {instanceID: 23878}
     - Class: 114
-      Script: {instanceID: 23986}
+      Script: {instanceID: 23924}
     - Class: 114
-      Script: {instanceID: 24092}
+      Script: {instanceID: 23998}
     - Class: 114
-      Script: {instanceID: 24240}
+      Script: {instanceID: 24086}
     - Class: 114
-      Script: {instanceID: 24440}
+      Script: {instanceID: 24106}
     - Class: 114
-      Script: {instanceID: 24612}
+      Script: {instanceID: 24254}
     - Class: 114
-      Script: {instanceID: 24632}
+      Script: {instanceID: 24454}
     - Class: 114
-      Script: {instanceID: 24676}
+      Script: {instanceID: 24626}
     - Class: 114
-      Script: {instanceID: 24714}
+      Script: {instanceID: 24646}
     - Class: 114
-      Script: {instanceID: 24916}
+      Script: {instanceID: 24690}
     - Class: 114
-      Script: {instanceID: 25150}
+      Script: {instanceID: 24728}
     - Class: 114
-      Script: {instanceID: 25190}
+      Script: {instanceID: 24930}
     - Class: 114
-      Script: {instanceID: 25230}
+      Script: {instanceID: 25164}
     - Class: 114
-      Script: {instanceID: 25358}
+      Script: {instanceID: 25204}
     - Class: 114
-      Script: {instanceID: 25566}
+      Script: {instanceID: 25244}
     - Class: 114
-      Script: {instanceID: 25626}
+      Script: {instanceID: 25372}
     - Class: 114
-      Script: {instanceID: 26126}
+      Script: {instanceID: 25580}
     - Class: 114
-      Script: {instanceID: 26538}
+      Script: {instanceID: 25640}
     - Class: 114
-      Script: {instanceID: 30572}
+      Script: {instanceID: 26140}
+    - Class: 114
+      Script: {instanceID: 26554}
+    - Class: 114
+      Script: {instanceID: 44102}
+    - Class: 114
+      Script: {instanceID: 82976}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -839,6 +855,12 @@ ScriptsOnlyBuild:
     className: ShadowCaster2D
   - hash:
       serializedVersion: 2
+      Hash: 6120507809922db49016611d7b8cfc0c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ClickManager
+  - hash:
+      serializedVersion: 2
       Hash: f2a98ff44eae2937f49b66c5ac80892b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -855,6 +877,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Cube
   - hash:
       serializedVersion: 2
       Hash: 2426be942e4ebb5aff115325103b797f
@@ -1017,6 +1045,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1c1c7342b052918761e53a5a9704a8f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CutBoard
   - hash:
       serializedVersion: 2
       Hash: ce670371265af50e12cc59c9b9e94af9
@@ -1275,6 +1309,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: "K\xFCre"
   - hash:
       serializedVersion: 2
       Hash: 3a09ae0a4d0e75b36abda223b76ab1ea
@@ -1635,6 +1675,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 106b031a42957effde9159e22c317279
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITimer
   - hash:
       serializedVersion: 2
       Hash: e021fae07b7c73933e18725f76623e21
@@ -2021,6 +2067,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Slinder
+  - hash:
+      serializedVersion: 2
       Hash: 737b3cd4e6a12ba8d9db2fe2b614f203
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
@@ -2075,10 +2127,16 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 29233db495390280de09b2a63a836844
+      Hash: 287ae48a35775bd5279d969ad58c8a62
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CutBoard
+    className: Bakery
+  - hash:
+      serializedVersion: 2
+      Hash: 6db5e38564489fe9fb939a771b651a17
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BakeryBox
   platform: 13
   scenePathNames:
   - Assets/Scenes/s.unity

@@ -340,9 +340,16 @@
 "Assets/Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
+"Assets/InterfaceLearning/ClickManager.cs"
+"Assets/InterfaceLearning/Cube.cs"
+"Assets/InterfaceLearning/IControl.cs"
+"Assets/InterfaceLearning/Küre.cs"
+"Assets/InterfaceLearning/Slinder.cs"
+"Assets/Script/Abstract/Functionanlity.cs"
 "Assets/Script/ActionsController.cs"
+"Assets/Script/Interface/Bakery.cs"
+"Assets/Script/Interface/BakeryBox.cs"
 "Assets/Script/Interface/CutBoard.cs"
-"Assets/Script/Interface/IPutItemButched.cs"
 "Assets/Script/Interface/IPutItemFull.cs"
 "Assets/Script/Interface/ITakeItem.cs"
 "Assets/Script/Interface/Item.cs"
@@ -350,6 +357,7 @@
 "Assets/Script/Interface/objects/Inverntory.cs"
 "Assets/Script/Interface/objects/ItemBox.cs"
 "Assets/Script/Interface/TrashBin.cs"
+"Assets/Script/UITimer.cs"
 -langversion:9.0
 
 /deterministic
