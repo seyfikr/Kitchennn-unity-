@@ -1,17 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ActionsController
-    - Bakery
-    - BakeryBox
+    - ActionController
     - BasicRigidBodyPush
-    - CutBoard
-    - Inverntory
+    - Inventory
     - ItemBox
     - MobileDisableAutoSwitchControls
+    - Oven
+    - OvenBox
+    - Plate
+    - SliceBoard
     - StarterAssets.StarterAssetsInputs
     - StarterAssets.ThirdPersonController
     - StarterAssets.UICanvasControllerInput
+    - Table
     - TrashBin
     - UITimer
     - UIVirtualButton
@@ -91,8 +93,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -177,13 +181,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: ActionsController
+    fullTypeName: ActionController
     methodName: OneTouch
   - assembly: Assembly-CSharp
-    fullTypeName: ActionsController
+    fullTypeName: ActionController
     methodName: PointerDown
   - assembly: Assembly-CSharp
-    fullTypeName: ActionsController
+    fullTypeName: ActionController
     methodName: PointerUp
   - assembly: Assembly-CSharp
     fullTypeName: StarterAssets.UICanvasControllerInput
@@ -299,8 +303,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17078}
     - Class: 114
-      Script: {instanceID: 17166}
-    - Class: 114
       Script: {instanceID: 17618}
     - Class: 114
       Script: {instanceID: 17636}
@@ -315,13 +317,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18390}
     - Class: 114
-      Script: {instanceID: 18494}
+      Script: {instanceID: 18496}
     - Class: 114
-      Script: {instanceID: 18604}
+      Script: {instanceID: 18602}
     - Class: 114
-      Script: {instanceID: 18662}
+      Script: {instanceID: 18660}
     - Class: 114
-      Script: {instanceID: 18786}
+      Script: {instanceID: 18784}
+    - Class: 114
+      Script: {instanceID: 19012}
     - Class: 114
       Script: {instanceID: 19358}
     - Class: 114
@@ -329,105 +333,111 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19470}
     - Class: 114
-      Script: {instanceID: 19494}
-    - Class: 114
       Script: {instanceID: 19508}
     - Class: 114
       Script: {instanceID: 19606}
     - Class: 114
-      Script: {instanceID: 19792}
+      Script: {instanceID: 19794}
     - Class: 114
-      Script: {instanceID: 19854}
+      Script: {instanceID: 19856}
     - Class: 114
-      Script: {instanceID: 19940}
+      Script: {instanceID: 19942}
     - Class: 114
-      Script: {instanceID: 20056}
+      Script: {instanceID: 20058}
     - Class: 114
-      Script: {instanceID: 20110}
+      Script: {instanceID: 20112}
     - Class: 114
-      Script: {instanceID: 20176}
+      Script: {instanceID: 20156}
     - Class: 114
-      Script: {instanceID: 20364}
+      Script: {instanceID: 20368}
     - Class: 114
-      Script: {instanceID: 20548}
+      Script: {instanceID: 20554}
     - Class: 114
-      Script: {instanceID: 21022}
+      Script: {instanceID: 21026}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 21722}
     - Class: 114
-      Script: {instanceID: 22046}
+      Script: {instanceID: 22050}
     - Class: 114
-      Script: {instanceID: 22136}
+      Script: {instanceID: 22140}
     - Class: 114
-      Script: {instanceID: 22250}
+      Script: {instanceID: 22254}
     - Class: 114
-      Script: {instanceID: 22272}
+      Script: {instanceID: 22274}
     - Class: 114
-      Script: {instanceID: 22364}
+      Script: {instanceID: 22366}
     - Class: 114
-      Script: {instanceID: 22458}
+      Script: {instanceID: 22460}
     - Class: 114
-      Script: {instanceID: 22690}
+      Script: {instanceID: 22512}
     - Class: 114
       Script: {instanceID: 22694}
     - Class: 114
-      Script: {instanceID: 22784}
+      Script: {instanceID: 22698}
     - Class: 114
-      Script: {instanceID: 23136}
+      Script: {instanceID: 22788}
     - Class: 114
-      Script: {instanceID: 23248}
+      Script: {instanceID: 23142}
     - Class: 114
-      Script: {instanceID: 23484}
+      Script: {instanceID: 23254}
     - Class: 114
-      Script: {instanceID: 23538}
+      Script: {instanceID: 23494}
     - Class: 114
-      Script: {instanceID: 23684}
+      Script: {instanceID: 23548}
     - Class: 114
       Script: {instanceID: 23694}
     - Class: 114
-      Script: {instanceID: 23878}
+      Script: {instanceID: 23704}
     - Class: 114
-      Script: {instanceID: 23924}
+      Script: {instanceID: 23888}
     - Class: 114
-      Script: {instanceID: 23998}
+      Script: {instanceID: 23934}
     - Class: 114
-      Script: {instanceID: 24086}
+      Script: {instanceID: 24008}
     - Class: 114
-      Script: {instanceID: 24106}
+      Script: {instanceID: 24116}
     - Class: 114
-      Script: {instanceID: 24254}
+      Script: {instanceID: 24264}
     - Class: 114
-      Script: {instanceID: 24454}
+      Script: {instanceID: 24464}
     - Class: 114
-      Script: {instanceID: 24626}
+      Script: {instanceID: 24636}
     - Class: 114
-      Script: {instanceID: 24646}
+      Script: {instanceID: 24656}
     - Class: 114
-      Script: {instanceID: 24690}
+      Script: {instanceID: 24702}
     - Class: 114
-      Script: {instanceID: 24728}
+      Script: {instanceID: 24740}
     - Class: 114
-      Script: {instanceID: 24930}
+      Script: {instanceID: 25176}
     - Class: 114
-      Script: {instanceID: 25164}
+      Script: {instanceID: 25254}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 25382}
     - Class: 114
-      Script: {instanceID: 25244}
+      Script: {instanceID: 25592}
     - Class: 114
-      Script: {instanceID: 25372}
+      Script: {instanceID: 25652}
     - Class: 114
-      Script: {instanceID: 25580}
+      Script: {instanceID: 25910}
     - Class: 114
-      Script: {instanceID: 25640}
+      Script: {instanceID: 26078}
     - Class: 114
-      Script: {instanceID: 26140}
+      Script: {instanceID: 26154}
     - Class: 114
-      Script: {instanceID: 26554}
+      Script: {instanceID: 26446}
     - Class: 114
-      Script: {instanceID: 44102}
+      Script: {instanceID: 26570}
     - Class: 114
-      Script: {instanceID: 82976}
+      Script: {instanceID: 29762}
+    - Class: 114
+      Script: {instanceID: 30860}
+    - Class: 114
+      Script: {instanceID: 31660}
+    - Class: 114
+      Script: {instanceID: 31684}
+    - Class: 114
+      Script: {instanceID: 31726}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -571,12 +581,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineTriggerAction
-  - hash:
-      serializedVersion: 2
-      Hash: 021ef1423a168c0b8db2fa7706942925
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Inverntory
   - hash:
       serializedVersion: 2
       Hash: b2585c2ffe814daaf637d190c0a326e1
@@ -849,6 +853,12 @@ ScriptsOnlyBuild:
     className: Cinemachine3rdPersonFollow
   - hash:
       serializedVersion: 2
+      Hash: b401684d8d9f0732aa07b1e3b0413b59
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Inventory
+  - hash:
+      serializedVersion: 2
       Hash: bb1919f987f39a217a67674a47792b29
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -901,12 +911,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerEnumField
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ActionsController
   - hash:
       serializedVersion: 2
       Hash: 133106efa38a12397eb9a84fda497ea9
@@ -1035,6 +1039,12 @@ ScriptsOnlyBuild:
     className: InputActionAsset
   - hash:
       serializedVersion: 2
+      Hash: e38d34c17f19ee32052e8ea9e011ce6e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Plate
+  - hash:
+      serializedVersion: 2
       Hash: 0286ed84936a6e3c4dba049ae21a7b1c
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1045,12 +1055,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineIndependentImpulseListener
-  - hash:
-      serializedVersion: 2
-      Hash: 1c1c7342b052918761e53a5a9704a8f3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CutBoard
   - hash:
       serializedVersion: 2
       Hash: ce670371265af50e12cc59c9b9e94af9
@@ -1225,6 +1229,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: a4b7c39b7883ee9d9dff760683c7c155
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TableBox
   - hash:
       serializedVersion: 2
       Hash: d2cdc988562557524570d164f7c0abfa
@@ -1407,12 +1417,6 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ButchedItem
-  - hash:
-      serializedVersion: 2
       Hash: 4971791e3fdadf654bdde2398c8ec417
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -1453,6 +1457,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIVirtualTouchZone
+  - hash:
+      serializedVersion: 2
+      Hash: 80f07332e7c760198a9027c1553a1d53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Oven
   - hash:
       serializedVersion: 2
       Hash: 2673f1d0e79e3676f5e46d368d79b12d
@@ -1671,16 +1681,16 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerBitField
   - hash:
       serializedVersion: 2
+      Hash: fba76f40b9eb67e02e50897321c9409d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MovementController
+  - hash:
+      serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 106b031a42957effde9159e22c317279
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UITimer
   - hash:
       serializedVersion: 2
       Hash: e021fae07b7c73933e18725f76623e21
@@ -1870,12 +1880,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TrashBin
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
@@ -1921,12 +1925,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 1701f0b335783dbae5264e7134120e12
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ItemBox
   - hash:
       serializedVersion: 2
       Hash: 037c83207c007e0dcc20c4681706f21c
@@ -2007,6 +2005,12 @@ ScriptsOnlyBuild:
     className: CinemachineStateDrivenCamera
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActionController
+  - hash:
+      serializedVersion: 2
       Hash: df890c4d7f6baa24beba8f1eaa9b4ea9
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2029,6 +2033,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 9fbe4713e5afe89284a0990d5e619454
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SliceBoard
   - hash:
       serializedVersion: 2
       Hash: 4ee3c79798efe8cc7e12f6e2bb55b45f
@@ -2085,6 +2095,12 @@ ScriptsOnlyBuild:
     className: DataPrivacyButton
   - hash:
       serializedVersion: 2
+      Hash: 73d0c12396872f35f9558e872f858abc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OvenBox
+  - hash:
+      serializedVersion: 2
       Hash: be463dc1dc207ab0f2841ed46e1275dc
     assemblyName: Cinemachine
     namespaceName: 
@@ -2127,16 +2143,28 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 287ae48a35775bd5279d969ad58c8a62
+      Hash: 1701f0b335783dbae5264e7134120e12
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Bakery
+    className: ItemBox
   - hash:
       serializedVersion: 2
-      Hash: 6db5e38564489fe9fb939a771b651a17
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: BakeryBox
+    className: TrashBin
+  - hash:
+      serializedVersion: 2
+      Hash: da3700fdcc4188dae9a1c50389150142
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITimer
+  - hash:
+      serializedVersion: 2
+      Hash: b892856a7918d42ab8ab9b07dc19dfe2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Table
   platform: 13
   scenePathNames:
   - Assets/Scenes/s.unity
