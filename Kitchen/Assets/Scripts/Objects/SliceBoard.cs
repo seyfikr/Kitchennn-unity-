@@ -23,7 +23,7 @@ public class SliceBoard : Functionality,IPutItemFull
         timer.UpdateClock(currentTime, maxTime);
         if (currentTime >= maxTime)
         {
-            currentTime = 0;
+            
             timer.gameObject.SetActive(false);
             processStarted = false;
             timer.UpdateClock(currentTime, maxTime);
@@ -40,8 +40,10 @@ public class SliceBoard : Functionality,IPutItemFull
                 case ItemType.BREAD:
                     return ItemType.SLICEDBREAD;
             }
+            currentTime = 0;
         }
         return ItemType.NONE;
+       
     }
     public override void ClearObject()
     {
