@@ -415,6 +415,8 @@
 "Assets/Scripts/Interface/IGetItem.cs"
 "Assets/Scripts/Interface/IPutItemButched.cs"
 "Assets/Scripts/Interface/IPutItemFull.cs"
+"Assets/Scripts/Npc/NpcController.cs"
+"Assets/Scripts/Npc/NpcManager.cs"
 "Assets/Scripts/Objects/ButchedItem.cs"
 "Assets/Scripts/Objects/Functionality.cs"
 "Assets/Scripts/Objects/Item.cs"

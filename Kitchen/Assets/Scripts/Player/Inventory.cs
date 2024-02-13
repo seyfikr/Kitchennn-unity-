@@ -22,7 +22,7 @@ public class Inventory : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(currentType);
+   
         if(currentType == ItemType.NONE)
         {
             anim.SetBool("Take", false);
